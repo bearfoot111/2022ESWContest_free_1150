@@ -1,0 +1,14 @@
+text 0729가 지금까지 한 것 중에 젤 잘되는 거고용
+비슷한 건
+textdetection_zin
+text
+이거에용
+그리고 게이지 인식하는 게 
+gauge2
+이 파일이고
+frozen_east_text_detection
+이거는 글자인식 모델이에용
+gauge2에서
+gauge_number = 2
+이거 넘버 바꿔주면 사진 바꿀 수 잇음
+나머지는 절대경로라 잘 몰겟어요
