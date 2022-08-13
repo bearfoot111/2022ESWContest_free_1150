@@ -22,22 +22,20 @@ def avg_circles(circles, b):
     avg_r = int(avg_r/(b))
     return avg_x, avg_y, avg_r
 
-
-
 def dist_2_pts(x1, y1, x2, y2):
     #print np.sqrt((x2-x1)^2+(y2-y1)^2)
     return np.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
+
 def find_E_F_angle(x,y):
     #first_line_list=[]
-    print(x,y)
-    first_line_list=[[436,411.7],[436,168.3]]
+    first_line_list=[[173.36,319.83],[108.3,134.16]]
     x_angle=[]
     y_angle=[]
     res=[]
     final_angle=[]
     for i in range(0,2):
-        a=first_line_list[i][0]-x
+        a=first_line_list[i][0]-x0
         b=y-first_line_list[i][1]
         x_angle.append(a)
         y_angle.append(b)
@@ -55,8 +53,8 @@ def find_E_F_angle(x,y):
         if x_angle[i] < 0 and y_angle[i] <0 :
             final_angle.append(270-res[i])
     print(final_angle[0],final_angle[1])
-    print(x,y)
     return final_angle[0],final_angle[1]
+
 
 def calibrate_gauge(gauge_number, file_type):
     '''
@@ -74,7 +72,7 @@ def calibrate_gauge(gauge_number, file_type):
     img = imgout.copy()
     img = 255 - img
     #cv2.imshow("original", imgout)
-    cv2.imshow("flip", img)
+    #cv2.imshow("flip", img)
     cv2.waitKey(0)
     height, width = img.shape[:2]
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  #convert to gray
@@ -87,7 +85,7 @@ def calibrate_gauge(gauge_number, file_type):
     #detect circles
     #restricting the search from 35-48% of the possible radii gives fairly good results across different samples.  Remember that
     #these are pixel values which correspond to the possible radii search range.
-    circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, np.array([]), 100, 50, 150, 200)
+    circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, np.array([]), 100, 50, 100, 200)
     #circles = np.uint16(np.around(circles))
     #for i in circles[0,:]:
     #    cv2.circle(img,(i[0],i[1]),i[2],(0,255,0),2)
@@ -117,7 +115,7 @@ def calibrate_gauge(gauge_number, file_type):
     (i+9) in the text offset rotates the labels by 90 degrees so 0/360 is at the bottom (-y in cartesian).  So this assumes the
     gauge is aligned in the image, but it can be adjusted by changing the value of 9 to something else.
     '''
-    separation = 5.0 #in degrees 몇도 단위로 나눌건지 결정
+    separation = 10.0 #in degrees
     interval = int(360 / separation)
     p1 = np.zeros((interval,2))  #set empty arrays
     p2 = np.zeros((interval,2))
@@ -149,10 +147,8 @@ def calibrate_gauge(gauge_number, file_type):
     #get user input on min, max, values, and units
     #여기에 입력하는 중!!
     print ("gauge number: %s" %gauge_number)
-    #min_angle = input('Min angle (lowest possible angle of dial) - in degrees: ') #the lowest possible angle
-    #max_angle = input('Max angle (highest possible angle) - in degrees: ') #highest possible angle
     min_value = 0
-    max_value = 365
+    max_value = 100
     units= '%'
     #min_value = input('Min value: ') #usually zero
     #max_value = input('Max value: ') #maximum reading of the gauge
@@ -164,8 +160,8 @@ def calibrate_gauge(gauge_number, file_type):
     # min_value = 0
     # max_value = 200
     # units = "PSI"
+    print(x,y)
 
-    #return min_angle, max_angle, min_value, max_value, units, x, y, r
     return min_value, max_value, units, x, y, r
 
 def get_current_value(img, min_angle, max_angle, min_value, max_value, x, y, r, gauge_number, file_type):
@@ -203,7 +199,7 @@ def get_current_value(img, min_angle, max_angle, min_value, max_value, x, y, r, 
     cv2.imwrite('gauge-%s-tempdst2.%s' % (gauge_number, file_type), dst2)
 
     # find lines
-    minLineLength = 60
+    minLineLength = 10
     maxLineGap = 0
     lines = cv2.HoughLinesP(image=dst2, rho=3, theta=np.pi / 180, threshold=100,minLineLength=minLineLength, maxLineGap=0)  # rho is set to 3 to detect more lines, easier to get more then filter them out later
     # 선 찾는 코드
@@ -219,8 +215,8 @@ def get_current_value(img, min_angle, max_angle, min_value, max_value, x, y, r, 
 
     diff1LowerBound = 0.3 #diff1LowerBound and diff1UpperBound determine how close the line should be from the center
     diff1UpperBound = 0.4 #이거 바꿈
-    diff2LowerBound = 0.7 #diff2LowerBound and diff2UpperBound determine how close the other point of the line should be to the outside of the gauge
-    diff2UpperBound = 0.8 #이거 키우면 눈금에 가까운 애들 찾을 수 있음
+    diff2LowerBound = 0.5 #diff2LowerBound and diff2UpperBound determine how close the other point of the line should be to the outside of the gauge
+    diff2UpperBound = 1.0 #이거 키우면 눈금에 가까운 애들 찾을 수 있음
     for i in range(0, len(lines)):
         for x1, y1, x2, y2 in lines[i]:
             diff1 = dist_2_pts(x, y, x1, y1)  # x, y is center of circle
@@ -242,15 +238,13 @@ def get_current_value(img, min_angle, max_angle, min_value, max_value, x, y, r, 
         y1 = final_line_list[i][1]
         x2 = final_line_list[i][2]
         y2 = final_line_list[i][3]
-        cv2.line(img, (x1, y1), (x2, y2), (0, 255-255*i,255*i ), 2)
+        cv2.line(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
-
-    # assumes the first line is the best one 지금 i=1일 때가 제대로 된 선인데 개이상함 왜이럼
+    # assumes the first line is the best one
     x1 = final_line_list[0][0]
     y1 = final_line_list[0][1]
     x2 = final_line_list[0][2]
     y2 = final_line_list[0][3]
-    print(x1,y1,x2,y2)
     cv2.line(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
     #for testing purposes, show the line overlayed on the original image
@@ -258,7 +252,6 @@ def get_current_value(img, min_angle, max_angle, min_value, max_value, x, y, r, 
     cv2.imwrite('gauge-%s-lines-2.%s' % (gauge_number, file_type), img)
 
     #find the farthest point from the center to be what is used to determine the angle
-    #왜 먼거 쓰냐면 선에 양 끝 잇어서 그럼
     dist_pt_0 = dist_2_pts(x, y, x1, y1)
     dist_pt_1 = dist_2_pts(x, y, x2, y2)
     if (dist_pt_0 > dist_pt_1):
@@ -278,13 +271,13 @@ def get_current_value(img, min_angle, max_angle, min_value, max_value, x, y, r, 
 
     #these were determined by trial and error
     res = np.rad2deg(res)
-    if x_angle > 0 and y_angle > 0:  #in quadrant I 1사분면?
+    if x_angle > 0 and y_angle > 0:  #in quadrant I
         final_angle = 270 - res
-    if x_angle < 0 and y_angle > 0:  #in quadrant II 2사분면
+    if x_angle < 0 and y_angle > 0:  #in quadrant II
         final_angle = 90 - res
-    if x_angle < 0 and y_angle < 0:  #in quadrant III 3사분면
+    if x_angle < 0 and y_angle < 0:  #in quadrant III
         final_angle = 90 - res
-    if x_angle > 0 and y_angle < 0:  #in quadrant IV 4사분면
+    if x_angle > 0 and y_angle < 0:  #in quadrant IV
         final_angle = 270 - res
 
     #print final_angle
@@ -304,10 +297,9 @@ def get_current_value(img, min_angle, max_angle, min_value, max_value, x, y, r, 
     return new_value
 
 def main():
-    gauge_number = 2
+    gauge_number = 3
     file_type='jpg'
     # name the calibration image of your gauge 'gauge-#.jpg', for example 'gauge-5.jpg'.  It's written this way so you can easily try multiple images
-    #min_angle, max_angle, min_value, max_value, units, x, y, r = calibrate_gauge(gauge_number, file_type)
     min_value, max_value, units, x, y, r = calibrate_gauge(gauge_number, file_type)
     min_angle, max_angle = find_E_F_angle(x,y)
 
