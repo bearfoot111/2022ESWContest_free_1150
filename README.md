@@ -93,7 +93,7 @@
 
 </br></br>
 ### 2. 버튼 누르기
-<img src="https://user-images.githubusercontent.com/109569066/193406761-6a29ba6b-98b8-4edc-a363-8ac6e04a3c83.png" width="800" />
+<img src="https://user-images.githubusercontent.com/109569066/193406874-be245ac6-7292-4934-9256-36ed8f758d93.png" width="800" />
 
 >**[3] Run 버튼을 누른 상태**
 >- 안내로봇의 motor 작동이 시작된다.
