@@ -67,4 +67,4 @@ for res in result:
 ```
 ## 3. model 적용 결과 비교
 <img src="https://user-images.githubusercontent.com/109569066/193410836-bcbedd09-1c20-4e63-a9cf-7ae97cb6428d.png" width="500" />
-
+> 실생활 이미지에 각각의 model을 적용하였을  EasyOCR이 Tesseract보다 성능이 우수하였다.
