@@ -7,10 +7,10 @@
 | YOLOv5s	| 56.8 | 6.4 |
 | YOLOv5m |	64.1 | 8.2 |
 
-![image](https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png=250x)
+![image](https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png =250x)
 
 
-![about_yolo](https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png=250x)
+![about_yolo](https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png =250x)
 
 >1. yolo를 이용해 사용자 지정 데이터를 학습시키기 위하여 이미지를 수집
 >2. roboflow를 사용하여 해당 이미지의 관심 개체에 label을 지정
