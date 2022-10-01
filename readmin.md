@@ -1,11 +1,12 @@
 ## 앱 구성 및 사용법
 
-### 첫화면
+### <첫화면>
 
 #### 1. 서버와 연결상태 확인
 
-![image](https://user-images.githubusercontent.com/109563514/193395903-c960ade6-7115-43aa-b98c-394fd629af58.png) 
->서버와 연결된 상태  
+
+>서버와 연결된 상태
+>![image](https://user-images.githubusercontent.com/109563514/193395903-c960ade6-7115-43aa-b98c-394fd629af58.png)   
 >- 앱을 실행하면 자동으로 서버와 연결된다.
 ![image](https://user-images.githubusercontent.com/109563514/193395048-995965eb-00d9-4c94-9b12-ee693f5f203c.png)
 >서버와 연결이 끊긴 상태
