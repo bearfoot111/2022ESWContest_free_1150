@@ -8,7 +8,8 @@
 | 하채리 | hacherry05@naver.com  |YOLO 학습 모델 최적화<br/>Text detection 구현<br/>TCP/IP 통신망 구축<br/>라즈베리 파이 multi threading 구현<br/>보고서 작성 |
 | 오희빈 | dhgmlqls0527@naver.com  |YOLO 학습 모델 최적화<br/>Text detection 구현<br/>3D 프린팅 도안 제작<br/>TTS 앱 연동 구축<br/>보고서 작성|
 ## 개발 요약
-![image](https://user-images.githubusercontent.com/109563514/193400087-e9d4057b-1b94-4feb-8f6f-5a26ceacc13a.png)
+<img src="https://user-images.githubusercontent.com/109563514/193400087-e9d4057b-1b94-4feb-8f6f-5a26ceacc13a.png" width="700" />
+
 ## 2022ESWContest (최종 folder) 구성
 
 ```bash
@@ -62,7 +63,7 @@
 ```
 
 ## 서버 구성도
-<img src="https://user-images.githubusercontent.com/109569066/193387203-a40715e7-c304-4977-a9f5-2686e74e9b16.png" width="600" />
+<img src="https://user-images.githubusercontent.com/109569066/193387203-a40715e7-c304-4977-a9f5-2686e74e9b16.png" width="700" />
 
 ## 주요 함수 흐름도
 <img src="https://user-images.githubusercontent.com/109563514/193400589-2ced53a0-b95e-445c-93a5-bbdf20f51834.png" width="600" />
