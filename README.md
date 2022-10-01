@@ -71,7 +71,14 @@
 ### 학습데이터
 > ㅇㅇ
 ### 학습 방법
-> .
+|수직 이미지 학습 | 수평 이미지 학습 |
+| ---- | ---- |
+| ![image](https://user-images.githubusercontent.com/109563514/193400754-e8852e70-f163-46da-a9ec-b417e8f2916c.png) | ![image](https://user-images.githubusercontent.com/109563514/193400758-41515e5f-8998-4349-9b58-70edcd1bd2bc.png) |
+
+## RoadSegmentation
+
+## Easy OCR
+![image](https://user-images.githubusercontent.com/109563514/193400708-1d893e72-4bdc-49b7-b82f-7ad8e23661bc.png)
 
 ## 앱 구성 및 사용법
 
