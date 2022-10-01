@@ -34,3 +34,16 @@
 >Stop OCR 버튼을 누른 상태
 >- 주변 문자인식을 멈춘다.
 >- Run OCR 버튼으로 활성화된다.
+
+</br></br>
+#### 3. 설정창 사용하기
+![image](https://user-images.githubusercontent.com/109563514/193397457-6a68bea9-5733-4c9c-8253-9df743527746.png)
+>왼쪽 상단의 메뉴를 클릭한다.
+
+![image](https://user-images.githubusercontent.com/109563514/193397379-bed0dddf-eec8-426b-ac37-6421cbc8a616.png)
+>메뉴바를 누른 상태
+>- 설정바가 있다.
+
+![image](https://user-images.githubusercontent.com/109563514/193397411-402a7547-019d-4406-99a9-6617d4faf808.png)
+>설정 바를 누른 상태
+>- 안내 음성의 volume, pitch, speechrate을 조절할 수 있다.
