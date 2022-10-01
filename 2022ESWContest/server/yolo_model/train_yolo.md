@@ -32,8 +32,12 @@
 !python train.py --img 416 --batch 16 --epochs 50 --data /content/dataset/data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name block_yolov5s_results
 ```
 > 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
- 
- 
+
+
+## 학습 결과 비교
+<img src="https://user-images.githubusercontent.com/109569066/193401139-b71b9a93-7f22-43cf-8928-9936e6589023.png" width="500" />
+
+
 ## 적용 과정
 >학습된 yolov5 model을 load
 ```
@@ -64,5 +68,3 @@ arr = results.xyxy[0].to('cuda:0')
 # 3  986.00  304.00  1028.0  420.0    0.286865      0      go
 ```
 
-## yolo 학습 결과 비교
-<img src="https://user-images.githubusercontent.com/109569066/193401139-b71b9a93-7f22-43cf-8928-9936e6589023.png" width="500" />
