@@ -1,6 +1,7 @@
 # YOLO
 ## yolov5
 YOLO는 Object Detection에서 빠른 영상처리 속도와 준수한 성능을 모두 가지고 있는 모델이다. 로봇의 특성상 카메라에서 받아들이는 영상을 바로 처리해야 하므로 Real-Time Model이 필요하다. 따라서 성능이 더 좋은 DINO 혹은 SwinV2-G보다는 실시간성이 보장되는 YOLOv5를 사용하게 되었다.
+>yolov5 pretrained model 종류
 <img src="https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png" width="600" />
 
 ## 적용 과정
