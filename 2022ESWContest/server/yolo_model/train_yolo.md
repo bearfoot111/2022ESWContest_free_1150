@@ -31,3 +31,8 @@
 > 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
 
 ## 적용 과정
+```
+model = torch.hub.load('yolov5', 'custom', path='best_block_.pt', source='local')
+model.to('cuda:0')
+model.conf = 0.4
+```
