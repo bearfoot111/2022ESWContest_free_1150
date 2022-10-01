@@ -11,18 +11,49 @@
 ## 2022ESWContest 
 
 ```bash
-
 │  
-├─server
-│  server.py
-│  ├──ocr_model
-│  ├──yolo_model
-│  └─Road segmentation_model
-│      
-├─raspberry
-│  motor.py
-│  ultra.py
-└─app
+├─ server
+│  │  server.py
+│  ├─ ocr_model
+│  │     README.md
+│  │     Tesseract&easyOCR.ipynb
+│  │     frozen_east_text_detection.pb
+│  ├─ yolo_model
+│  │  │  train_yolo.md
+│  │  │  best_block_.pt
+│  │  │  yolov5_block.ipynb
+│  │  ├─ dataset  
+│  │  │  │  README.dataset.txt  
+│  │  │  │  README.roboflow.txt
+│  │  │  │  data.yaml
+│  │  │  └─ train
+│  │  │     ├─ images
+│  │  │     └─ labels
+│  │  └─ test_result 
+│  ├─ TCP_IP
+│  │     best_block_.pt
+│  │     server_ocr.py
+│  │     server_yolo.py
+│  └─ Road segmentation_model
+│     │  README.md
+│     │  train.ipynb
+│     ├──data_loader
+│     │   │  data_loader
+│     │   │  display.py
+│     │   │  split_train_test.py
+│     │   └─ __pycache__
+│     │      display.cpython-39.pyc
+│     └─ model
+│         │  pspunet.py
+│         │  pspunet_weight.h5
+│         └─ __pycache__
+│            pspunet.cpython-39.pyc
+├─ raspberry
+│     README.md
+│     ultra.py
+│     motor.py
+└─ app
+   README.md
    main.dart
    count_provider.dart
    first_page.dart
