@@ -1,5 +1,5 @@
 # YOLO
-
+## yolov5
 ### yolov5 pretrained model
 | Model | mAP | Speed |
 | ---- | ----- |------|
@@ -9,6 +9,7 @@
 
 <img src="https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png" width="700" />
 
+## 적용 과정
 <img src="https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png" width="700" />
 
 1. yolo를 이용해 사용자 지정 데이터를 학습시키기 위하여 이미지를 수집
@@ -42,7 +43,7 @@
 로봇의 시점에서 촬영한 video에 학습한 model을 적용하였을 때 (2)가 (1)보다 더 많은 점자블록을 높은 확률로 인식하였다.
 
 ---
-## 적용 과정
+## 적용
 >학습된 yolov5 model을 load
 ```
 model = torch.hub.load('yolov5', 'custom', path='best_block_.pt', source='local')
