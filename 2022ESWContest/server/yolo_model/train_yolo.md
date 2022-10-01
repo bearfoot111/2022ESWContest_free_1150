@@ -26,6 +26,8 @@
 
 > **Label Data** : 2022ESWCOntest/server/yolo_model/dataset/train/labels
 
+> **roboflow Data** : https://universe.roboflow.com/object-detection/block-kpj3b
+
 > **yaml** : 2022ESWCOntest/server/yolo_model/dataset/data.yaml
 
 ### train
