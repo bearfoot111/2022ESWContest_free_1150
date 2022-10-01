@@ -17,6 +17,18 @@ demo 버전인만큼 epoh가 10, 정확도가 90%로 가볍게 훈련된 모델�
 
 <img src="https://user-images.githubusercontent.com/109472852/193393312-b2bab531-475d-4f77-a2c8-6061d34d6b16.PNG" width="600" />
 
+* ## 적용 과정
+> road segmentation model 적용 이후 output을 이미지로 반환하는 과정
+```
+frame2 = tf.squeeze(frame2)
+frame2 = frame2.numpy()
+frame2 = frame2*255
+frame2 = np.uint8(frame2)
+frame2 = to_pil_image(frame2)
+frame2 = np.array(frame2)
+frame2 = cv2.cvtColor(frame2, cv2.COLOR_RGB2BGR)
+```
+
 * ### 개발 환경
 
 
