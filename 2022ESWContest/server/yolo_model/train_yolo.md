@@ -16,10 +16,14 @@
 
 > **yaml** : 2022ESWCOntest/server/yolo_model/dataset/data.yaml
 
-
 ### yolov5 pretrained model
 | Model | mAP | Speed |
 | ---- | ----- |------|
 YOLOv5n |	45.7 | 6.3 |
 YOLOv5s	| 56.8 | 6.4 |
 YOLOv5m |	64.1 | 8.2 |
+
+### train
+```
+!python train.py --img 416 --batch 16 --epochs 50 --data /content/dataset/data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name block_yolov5s_results
+```
