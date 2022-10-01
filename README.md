@@ -1,6 +1,17 @@
 # Team 맨발에서일인자까지1
 ## 팀원
-![1_qNdglJ1ORP3Gq77MmBLhHQ](https://user-images.githubusercontent.com/109472852/193386055-42813178-814e-46fd-932e-80d2410b6543.png)
+|이름|메일 주소|업무|
+|:---:|:---:|:---:|
+|백민정|메일 주소|팀장|
+|안진혁|내용 6|내용 7|
+|김채현|내용 10|내용 11|
+|하채리|내용 6|내용 7|
+|오희빈|내용 6|내용 7|
+
+
+
+안녕 나는 민정이야
+![제목 없는 다이어그램 drawio](https://user-images.githubusercontent.com/109472852/193386109-3186fd13-60a8-4a4c-8d20-41f453a59687.png)
 
 냠냠냠
 │  graph_AM.png
