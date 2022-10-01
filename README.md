@@ -62,10 +62,10 @@
 ```
 
 ## 서버 구성도
-![image](https://user-images.githubusercontent.com/109569066/193387203-a40715e7-c304-4977-a9f5-2686e74e9b16.png)
+<img src="https://user-images.githubusercontent.com/109569066/193387203-a40715e7-c304-4977-a9f5-2686e74e9b16.png" width="600" />
 
 ## 주요 함수 흐름도
-![image](https://user-images.githubusercontent.com/109563514/193400589-2ced53a0-b95e-445c-93a5-bbdf20f51834.png)
+<img src="https://user-images.githubusercontent.com/109563514/193400589-2ced53a0-b95e-445c-93a5-bbdf20f51834.png" width="600" />
 
 ## YOLO
 ### 학습데이터
