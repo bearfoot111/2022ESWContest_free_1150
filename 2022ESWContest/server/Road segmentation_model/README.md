@@ -28,4 +28,3 @@ demo 버전인만큼 epoh가 10, 정확도가 90%로 가볍게 훈련된 모델�
 [detail & original author](https://github.com/JunHyeok96/Road-Segmentation)
 
 
-|
