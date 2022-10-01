@@ -44,7 +44,7 @@ def sendsensor(sock2):
         check_time = stop - start
         distance = check_time * 34300 / 2
         print("Distance : %.1f cm" % distance)
-        if(distance<=10):
+        if(distance<=40):
             print("stop!!!")
             sock2.sendall('Stop!'.encode())
         else:
