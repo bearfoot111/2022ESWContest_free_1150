@@ -24,10 +24,12 @@
 │  │     README.md
 │  │     Tesseract&easyOCR.ipynb
 │  │     frozen_east_text_detection.pb
+│  │     
 │  ├─ yolo_model
 │  │  │  train_yolo.md
 │  │  │  best_block_.pt
 │  │  │  yolov5_block.ipynb
+│  │  │  
 │  │  ├─ dataset  
 │  │  │  │  README.dataset.txt  
 │  │  │  │  README.roboflow.txt
@@ -35,11 +37,9 @@
 │  │  │  └─ train
 │  │  │     ├─ images
 │  │  │     └─ labels
+│  │  │     
 │  │  └─ test_result 
-│  ├─ TCP_IP
-│  │     best_block_.pt
-│  │     server_ocr.py
-│  │     server_yolo.py
+│  │  
 │  └─ Road segmentation_model
 │     │  README.md
 │     │  train.ipynb
@@ -49,15 +49,18 @@
 │     │   │  split_train_test.py
 │     │   └─ __pycache__
 │     │      display.cpython-39.pyc
+│     │     
 │     └─ model
 │         │  pspunet.py
 │         │  pspunet_weight.h5
 │         └─ __pycache__
 │            pspunet.cpython-39.pyc
+│           
 ├─ raspberry
 │     README.md
 │     ultra.py
 │     motor.py
+│     
 └─ app
    README.md
    main.dart
@@ -72,12 +75,25 @@
 ## 주요 함수 흐름도
 ![image](https://user-images.githubusercontent.com/109563514/193400589-2ced53a0-b95e-445c-93a5-bbdf20f51834.png)
 
-## 사용한 model
-> **YOLO** : 자세한 내용은 2022ESWContest/server/yolo_model/README.md 참고
 
-> **Road Segmentation** : 자세한 내용은 2022ESWContest/server/Road segmentation_model/README.md 참고
+## YOLO
+> 자세한 내용은 2022ESWContest/server/yolo_model 안의 마크다운파일 참고 
+### 학습데이터
+> ㅇㅇ
+### 학습 방법
+|수직 이미지 학습 | 수평 이미지 학습 |
+| ---- | ---- |
+| ![image](https://user-images.githubusercontent.com/109563514/193400754-e8852e70-f163-46da-a9ec-b417e8f2916c.png) | ![image](https://user-images.githubusercontent.com/109563514/193400758-41515e5f-8998-4349-9b58-70edcd1bd2bc.png) |
 
-> **EasyOCR** : 자세한 내용은 2022ESWContest/server/ocr_model/README.md 참고
+
+
+## RoadSegmentation
+>  자세한 내용은 2022ESWContest/server/Road segmentation_model 안의 마크다운파일 참고 
+
+
+## Easy OCR
+>  자세한 내용은 2022ESWContest/server/ocr_model 안 마크다운파일 참고
+
 
 ## 앱 구성 및 사용법
 ### 1. 서버와 연결상태 확인
