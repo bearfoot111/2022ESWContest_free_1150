@@ -53,7 +53,7 @@ results = model(frame)
 ```
 frame = np.squeeze(results.render())
 ```
-
+  
 >yolo 적용 결과 output 좌표
 ```
 arr = results.xyxy[0].to('cuda:0')
