@@ -50,6 +50,11 @@ frame2 = np.array(frame2)
 frame2 = cv2.cvtColor(frame2, cv2.COLOR_RGB2BGR)
 ```
 
+
+* ## 실행 결과
+<img src="https://user-images.githubusercontent.com/109493197/193414531-ff360f3b-c160-415a-8929-1f8511218fd9.png" width="600" />
+
+
 * ## 개발 환경
 
 
@@ -57,7 +62,3 @@ frame2 = cv2.cvtColor(frame2, cv2.COLOR_RGB2BGR)
 
 
 [detail & original author](https://github.com/JunHyeok96/Road-Segmentation)
-
-
-* ## 실행 결과
-<img src="https://user-images.githubusercontent.com/109493197/193414531-ff360f3b-c160-415a-8929-1f8511218fd9.png" width="600" />
