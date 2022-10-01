@@ -31,12 +31,12 @@ YOLO는 Object Detection에서 빠른 영상처리 속도와 준수한 성능을
 > 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
 
 ### train summary
-YOLOv5s summary: 213 layers, 7015519 parameters, 0 gradients, 15.8 GFLOPs
 | Class | Images | Labels | P | R | mAP@.5 | mAP@.5:.95 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | all | 21 | 139 | 0.83 | 0.733 | 0.794 | 0.576 |
 | go | 21 | 88 | 0.774 | 0.858 | 0.898 | 0.67 |
 | stop | 21 | 51 | 0.885 | 0.608 | 0.689 | 0.482 |
+YOLOv5s summary: 213 layers, 7015519 parameters, 0 gradients, 15.8 GFLOPs
 
 ---
 ## 학습 결과 비교
