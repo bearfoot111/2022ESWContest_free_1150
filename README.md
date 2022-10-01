@@ -93,13 +93,13 @@
 
 </br></br>
 ### 2. 버튼 누르기
-![image](https://user-images.githubusercontent.com/109563514/193397068-c334d25d-b57e-49f3-84b5-b8c0c0248c5f.png)
->**Run 버튼을 누른 상태**
+<img src="https://user-images.githubusercontent.com/109569066/193406568-1daf4612-3ff8-4855-980d-ee1ea89d511a.png" width="400" />
+
+>**[3] Run 버튼을 누른 상태**
 >- 안내로봇의 motor 작동이 시작된다.
 >- Stop 버튼으로 활성화된다.
 
-![image](https://user-images.githubusercontent.com/109563514/193397207-e8a9f58a-3290-49a5-a922-24d263ce3200.png)
->**Stop 버튼을 누른 상태**
+>**[4] Stop 버튼을 누른 상태**
 >- 안내로봇의 motor 작동이 멈추게된다.
 >- Run 버튼으로 활성화된다.
 
