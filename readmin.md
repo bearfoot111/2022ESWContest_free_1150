@@ -1,5 +1,5 @@
 ## 앱 구성 및 사용법
-![](./imgs/Login.png)
+![image](https://user-images.githubusercontent.com/109563514/193395048-995965eb-00d9-4c94-9b12-ee693f5f203c.png)
 
 >Login Interface
 >- Email, Password 입력 후 Enter or Login 버튼 클릭
