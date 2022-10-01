@@ -13,7 +13,7 @@ UNET은 이미지 분할을 목적으로 제안된 End-to-End 방식의 Fully-Co
 |UNet|89.1%|0.3520|70.9%|22.7|131MB|
 
 * ## 사용 모델
-demo 버전인만큼 epoh가 10, 정확도가 90%로 가볍게 훈련된 모델이 사용되었다. 아래 표와 같이 epoh 값을 높게 부여할 수록 정확도가 증가하는 것을 확인하여 본 개발에서는 epoh를 50으로 조정한 새로운 훈련 모델을 생성하였다. 
+demo 버전의 경우 epoh가 10, 정확도가 90%로 가볍게 훈련된 모델이 사용되었다. 아래 표와 같이 epoh 값을 높게 부여할 수록 정확도가 증가하는 것을 확인하여 본 개발에서는 epoh를 50으로 조정한 새로운 훈련 모델을 생성하였다. 
 <img src="https://user-images.githubusercontent.com/109569066/193413463-fa19a318-1f85-4e72-a9c8-ef42c881619e.png" width="600" />
 
 * ## 적용 과정
@@ -51,7 +51,7 @@ frame2 = cv2.cvtColor(frame2, cv2.COLOR_RGB2BGR)
 ```
 
 
-* ## 실행 결과
+* ## 적용 결과
 <img src="https://user-images.githubusercontent.com/109493197/193414531-ff360f3b-c160-415a-8929-1f8511218fd9.png" width="600" />
 
 
