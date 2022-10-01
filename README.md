@@ -119,15 +119,15 @@
 
 # 개발환경
 >사용PC
->-CPU : ntel(R) Xeon(R) CPU W-2223
->-VGA : RTX3080
->-HDD : SSD 1TB
->-CUDA 11.2
->-CUDNN 8.0.5
+>- CPU : ntel(R) Xeon(R) CPU W-2223
+>- VGA : RTX3080
+>- HDD : SSD 1TB
+>- CUDA 11.2
+>- CUDNN 8.0.5
 
 >사용라이브러리
->-numpy 1.16.2
->-opencv2 4.1.0
->-Pytorch 1.10.0
->-Tensorflow 2.9.0
->-CUDNN 8.0.5
+>- numpy 1.16.2
+>- opencv2 4.1.0
+>- Pytorch 1.10.0
+>- Tensorflow 2.9.0
+>- CUDNN 8.0.5
