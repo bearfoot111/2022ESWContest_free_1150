@@ -1,16 +1,10 @@
 # YOLO
 ## yolov5
-### yolov5 pretrained model
-| Model | mAP | Speed |
-| ---- | ----- |------|
-| YOLOv5n |	45.7 | 6.3 |
-| YOLOv5s	| 56.8 | 6.4 |
-| YOLOv5m |	64.1 | 8.2 |
-
-<img src="https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png" width="700" />
+YOLO는 Object Detection에서 빠른 영상처리 속도와 준수한 성능을 모두 가지고 있는 모델이다. 로봇의 특성상 카메라에서 받아들이는 영상을 바로 처리해야 하므로 Real-Time Model이 필요하다. 따라서 성능이 더 좋은 DINO 혹은 SwinV2-G보다는 실시간성이 보장되는 YOLOv5를 사용하게 되었다.
+<img src="https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png" width="600" />
 
 ## 적용 과정
-<img src="https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png" width="700" />
+<img src="https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png" width="600" />
 
 1. yolo를 이용해 사용자 지정 데이터를 학습시키기 위하여 이미지를 수집
 2. roboflow를 사용하여 해당 이미지의 관심 개체에 label을 지정
