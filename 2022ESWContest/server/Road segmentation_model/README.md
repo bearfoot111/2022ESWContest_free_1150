@@ -52,8 +52,9 @@ frame2 = cv2.cvtColor(frame2, cv2.COLOR_RGB2BGR)
 
 
 * ## 적용 결과
-<img src="https://user-images.githubusercontent.com/109493197/193414531-ff360f3b-c160-415a-8929-1f8511218fd9.png" width="600" />
 두 개의 사진 모두 실시간으로 카메라를 통해 건국대학교 인문학관 근처를 촬영하였다. 도로, 인도와 횡단보도 모두 다른 색깔로 구분되어 나타나는 것을 확인하였다.
+<img src="https://user-images.githubusercontent.com/109493197/193414531-ff360f3b-c160-415a-8929-1f8511218fd9.png" width="600" />
+
 
 * ## 개발 환경
 
