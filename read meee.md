@@ -3,8 +3,8 @@
 
 |이름|메일 주소|업무|
 |:---:|:---:|:---:|
-|백민정|메일 주소|팀장|
-|안진혁|내용 6|내용 7|
+|백민정|메일 주소|전체 기획 총괄<br>TCP/IP 통신망 구축<br>Flutter 앱 UI 개발<br>3D 프린팅 도안 제작<br>server-client 간 multi processing 구축|
+|안진혁|내용 6|server-client 간 multi processing 구축<br>TCP/IP 통신망 구축<br>GPU SERVER 원격 제어 환경 구축<br>라즈베리 파이 multi threading 구현<br>Road Segmentation 구현|
 |김채현|내용 10|내용 11|
 |하채리|내용 6|내용 7|
 |오희빈|내용 6|내용 7|
