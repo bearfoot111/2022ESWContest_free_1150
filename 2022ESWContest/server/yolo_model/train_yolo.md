@@ -64,4 +64,5 @@ arr = results.xyxy[0].to('cuda:0')
 # 3  986.00  304.00  1028.0  420.0    0.286865      0      go
 ```
 
-## yolo 학습 결과 
+## yolo 학습 결과 비교
+<img src="https://user-images.githubusercontent.com/109569066/193401106-749184f9-a129-4672-aaa8-4f7bf4c5afa7.png" width="700" />
