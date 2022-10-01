@@ -87,7 +87,8 @@
 >  자세한 내용은 2022ESWContest/server/RoadSegmentation 안의 마크다운파일 참고 
 
 ## Easy OCR
->  자세한 내용은 2022ESWContest/server/ocr_model 안 마크다운파일 참고 
+>  자세한 내용은 2022ESWContest/server/ocr_model 안 마크다운파일 참고
+
 ![image](https://user-images.githubusercontent.com/109563514/193400708-1d893e72-4bdc-49b7-b82f-7ad8e23661bc.png)
 
 
