@@ -125,7 +125,7 @@
 >**[9] 설정 바를 누른 상태**
 >- 안내 음성의 volume, pitch, speechrate을 조절할 수 있다.
 
-
+</br></br>
 ## 개발환경
 >**사용PC**
 >- CPU : ntel(R) Xeon(R) CPU W-2223
@@ -141,16 +141,16 @@
 >- Tensorflow 2.9.0
 >- CUDNN 8.0.5
 
-
+</br></br>
 ## Hardware 구성
 ### 안내 로봇 사진
 <img src="https://user-images.githubusercontent.com/109563514/193400318-38a4d737-6fc8-4129-9c8b-c910c3982f18.png" width="500" />
 
 ### 라즈베리파이 카메라모듈 거치대 3d모델
-![image](https://user-images.githubusercontent.com/109563514/193400450-7f08c308-3d5d-4e6e-b2b6-7173f375fb80.png)
+<img src="https://user-images.githubusercontent.com/109563514/193400450-7f08c308-3d5d-4e6e-b2b6-7173f375fb80.png" width="500" />
 
 ### 라즈베리파이 basket 3d모델
-![image](https://user-images.githubusercontent.com/109563514/193400487-b5c53fe8-8ceb-4f7f-87c1-376f7ce9e90b.png)
+<img src="https://user-images.githubusercontent.com/109563514/193400487-b5c53fe8-8ceb-4f7f-87c1-376f7ce9e90b.png" width="500" />
 
 ### 차체 mdf 도안
 <img src="https://user-images.githubusercontent.com/109563514/193400503-490ffc67-2d2f-4d23-af84-efab9ae59b2e.png" width="500" />
