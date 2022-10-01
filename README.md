@@ -9,10 +9,10 @@
 | 김채현 | baekchae1120@konkuk.ac.kr  |Road Segmentation 모델 학습<br/>라즈베리 파이 client 코드 개발<br/>TCP/IP 통신망 구축<br/>시연 영상 편집<br/>보고서 작성|
 | 하채리 | hacherry05@naver.com  |YOLO 학습 모델 최적화<br/>Text detection 구현<br/>TCP/IP 통신망 구축<br/>라즈베리 파이 multi threading 구현<br/>보고서 작성 |
 | 오희빈 | dhgmlqls0527@naver.com  |YOLO 학습 모델 최적화<br/>Text detection 구현<br/>3D 프린팅 도안 제작<br/>TTS 앱 연동 구축<br/>보고서 작성|
-</br></br>
+
 ## 개발 요약
 <img src="https://user-images.githubusercontent.com/109563514/193400087-e9d4057b-1b94-4feb-8f6f-5a26ceacc13a.png" width="600" />
-</br></br>
+
 
 ## 2022ESWContest (최종 folder) 구성
 
@@ -68,20 +68,19 @@
    first_page.dart
 ```
 
-</br></br>
 ## 서버 구성도
 <img src="https://user-images.githubusercontent.com/109569066/193387203-a40715e7-c304-4977-a9f5-2686e74e9b16.png" width="700" />
-</br></br>
+
 ## 주요 함수 흐름도
 <img src="https://user-images.githubusercontent.com/109563514/193400589-2ced53a0-b95e-445c-93a5-bbdf20f51834.png" width="600" />
-</br></br>
+
 ## 사용한 model
 > **YOLO** : 자세한 내용은 2022ESWContest/server/yolo_model/README.md 참고
 
 > **Road Segmentation** : 자세한 내용은 2022ESWContest/server/Road segmentation_model/README.md 참고
 
 > **EasyOCR** : 자세한 내용은 2022ESWContest/server/ocr_model/README.md 참고
-</br></br>
+
 ## 앱 구성 및 사용법
 ### 1. 서버와 연결상태 확인
 <img src="https://user-images.githubusercontent.com/109569066/193406472-b93d5813-997e-4e28-b0fd-d1a93ef85799.png" height="400" />
@@ -92,7 +91,7 @@
 >**[2]서버와 연결이 끊긴 상태**
 >- Connect 버튼을 누르면 서버와 연결을 다시 시도하게 된다.
 
-</br></br>
+
 ### 2. 버튼 누르기
 <img src="https://user-images.githubusercontent.com/109569066/193406874-be245ac6-7292-4934-9256-36ed8f758d93.png" height="400" />
 
@@ -112,7 +111,7 @@
 >**[6] Stop OCR 버튼을 누른 상태**
 >- 주변 문자인식을 멈춘다.
 >- Run OCR 버튼으로 활성화된다.
-</br></br>
+
 ### 3. 설정창 사용하기
 <img src="https://user-images.githubusercontent.com/109569066/193407036-a5923308-e1a0-4c43-869d-47407dfd0219.png" height="400" />
 
@@ -124,7 +123,7 @@
 
 >**[9] 설정 바를 누른 상태**
 >- 안내 음성의 volume, pitch, speechrate을 조절할 수 있다.
-</br></br>
+
 ## 개발환경
 >**사용PC**
 >- CPU : ntel(R) Xeon(R) CPU W-2223
@@ -139,7 +138,7 @@
 >- Pytorch 1.10.0
 >- Tensorflow 2.9.0
 >- CUDNN 8.0.5
-</br></br>
+
 ## Hardware 구성
 > **안내 로봇 사진**
 <img src="https://user-images.githubusercontent.com/109563514/193400318-38a4d737-6fc8-4129-9c8b-c910c3982f18.png" width="500" />
