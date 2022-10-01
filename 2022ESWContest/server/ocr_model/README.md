@@ -15,7 +15,7 @@ start = center - int(frame_size / 2)
 
 image = cv2.resize(image, (newW, frame_size)) 
 ```
-> Load East Text Detection model
+> East Text Detection model을 적용하여 text의 ROI를 구함
 ```
 layerNames = ["feature_fusion/Conv_7/Sigmoid", "feature_fusion/concat_3"]
 net = cv2.dnn.readNet(east_decorator)
@@ -48,6 +48,11 @@ for y in range(0, numRows):
 
                 rects.append((startX, startY, endX, endY))
 ```
+> Tesseract OCR을 적용하여 text ROI에서 인식되는 text를 반환
+```
+config = ("-l kor+eng --oem 1 --psm 12")
+text = pytesseract.image_to_string(image, config=config)
+````
 ## 2. EasyOCR
 > **Text Detection** : CRAFT
 
