@@ -48,11 +48,11 @@ input 이미지에 yolo를 적용
 ```
 results = model(frame)
 ```
->yolo 적용 결과 output 이미지
+yolo 적용 결과 output 이미지
 ```
 frame = np.squeeze(results.render())
 ```
->yolo 적용 결과 output 좌표
+yolo 적용 결과 output 좌표
 ```
 arr = results.xyxy[0].to('cuda:0')
 ```
