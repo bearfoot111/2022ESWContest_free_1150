@@ -9,7 +9,7 @@
 
 ## 학습 과정
 
-![image](https://user-images.githubusercontent.com/109569066/193398024-6dad1d06-7bf2-41d4-8672-e92e9c233851.png)
+
 
 ### 학습 데이터
 > **Image Data** : 2022ESWCOntest/server/yolo_model/dataset/train/images
