@@ -19,19 +19,8 @@
 > **yaml** : 2022ESWCOntest/server/yolo_model/dataset/data.yaml
 
 ### yolov5의 pretrained model
-Pretrained Checkpoints
-Model	size
-(pixels)	mAPval
-0.5:0.95	mAPval
-0.5	Speed
-CPU b1
-(ms)	Speed
-V100 b1
-(ms)	Speed
-V100 b32
-(ms)	params
-(M)	FLOPs
-@640 (B)
-YOLOv5n	640	28.0	45.7	45	6.3	0.6	1.9	4.5
-YOLOv5s	640	37.4	56.8	98	6.4	0.9	7.2	16.5
-YOLOv5m	640	45.4	64.1	224	8.2	1.7	21.2	49.0
+| Model | mAP | Speed |
+| ---- | ----- |------|
+YOLOv5n |	45.7 | 6.3 |
+YOLOv5s	| 56.8 | 6.4 |
+YOLOv5m |	64.1 | 8.2 |
