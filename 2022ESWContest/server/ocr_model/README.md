@@ -54,6 +54,7 @@ for y in range(0, numRows):
 config = ("-l kor+eng --oem 1 --psm 12")
 text = pytesseract.image_to_string(image, config=config)
 ````
+자세한 과정은 2022ESWContest_free_1150/2022ESWContest/server/ocr_model/Tesseract&easyOCR.ipynb 
 ## 2. EasyOCR
 > **Text Detection** : CRAFT
 
