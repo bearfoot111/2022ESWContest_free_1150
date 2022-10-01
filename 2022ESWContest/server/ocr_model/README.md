@@ -66,6 +66,5 @@ for res in result:
         text += res[1] + " "
 ```
 ## 3. model 적용 결과 비교
-<img src="https://user-images.githubusercontent.com/109569066/193405181-e7a6dae3-c95a-4b9e-b7d8-2b37eade5278.png" width="500" />
-<img src="https://user-images.githubusercontent.com/109569066/193405210-90613832-6227-4c5c-9c28-8aea6dc4ffdd.png" width="600" />
+<img src="https://user-images.githubusercontent.com/109569066/193410798-99a7643c-1330-4387-8abd-9b3827761311.png" width="500" />
 
