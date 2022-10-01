@@ -58,5 +58,5 @@ frame2 = cv2.cvtColor(frame2, cv2.COLOR_RGB2BGR)
 
 [detail & original author](https://github.com/JunHyeok96/Road-Segmentation)
 
-* ## 
+* ## 실행 결과
 <img src="https://user-images.githubusercontent.com/109493197/193414360-09d94b35-8118-47bd-9f59-c3c9fabc3967.png" width="600" />
