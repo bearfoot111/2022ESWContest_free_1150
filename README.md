@@ -53,6 +53,7 @@
 ```
 
 ## 서버 구성도
+![image](https://user-images.githubusercontent.com/109569066/193387203-a40715e7-c304-4977-a9f5-2686e74e9b16.png)
 
 ## 앱 구성 및 사용법
 
