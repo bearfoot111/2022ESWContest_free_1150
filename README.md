@@ -74,7 +74,7 @@
 
 
 ## YOLO
-> ![image](https://user-images.githubusercontent.com/109563514/193403207-23d5c90b-ffb9-47b6-bd1a-c3e244cdf3ca.png) 자세한 내용은 2022ESWContest/server/yolo_model 안의 마크다운파일 참고 
+>![image](https://user-images.githubusercontent.com/109563514/193403295-220e667f-98ca-42f9-8e49-70796326cc70.png) 자세한 내용은 2022ESWContest/server/yolo_model 안의 마크다운파일 참고 
 ### 학습데이터
 > ㅇㅇ
 ### 학습 방법
@@ -84,10 +84,10 @@
 
 
 ## RoadSegmentation
-> ![image](https://user-images.githubusercontent.com/109563514/193403212-1078007c-5aae-4d77-96ff-821b2bce8292.png) 자세한 내용은 2022ESWContest/server/RoadSegmentation 안의 마크다운파일 참고 
+> ![image](https://user-images.githubusercontent.com/109563514/193403287-0749cf09-42f6-4a20-a830-1a650b162f13.png) 자세한 내용은 2022ESWContest/server/RoadSegmentation 안의 마크다운파일 참고 
 
 ## Easy OCR
-> ![image](https://user-images.githubusercontent.com/109563514/193403215-6fb75c8b-8816-446b-9085-33f5bab14987.png) 자세한 내용은 2022ESWContest/server/ocr_model 안 마크다운파일 참고 
+> ![image](https://user-images.githubusercontent.com/109563514/193403284-fdbfa7c8-e0b6-4d8a-a1f1-25a5b0636d90.png) 자세한 내용은 2022ESWContest/server/ocr_model 안 마크다운파일 참고 
 ![image](https://user-images.githubusercontent.com/109563514/193400708-1d893e72-4bdc-49b7-b82f-7ad8e23661bc.png)
 
 
