@@ -28,4 +28,4 @@
 ```
 !python train.py --img 416 --batch 16 --epochs 50 --data /content/dataset/data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name block_yolov5s_results
 ```
-> 자세한 train 과정 : 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb
+> 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
