@@ -1,7 +1,6 @@
 # Ultrasonicwave
 
-
-<img src="https://user-images.githubusercontent.com/109472852/193396751-b2765428-2a0f-4d6c-b92c-2c3be187fb52.png" height="300px" width="300px">
+<img src="https://user-images.githubusercontent.com/109569066/193403821-bdc9dbf8-69eb-4c38-8203-4db417b18075.png" height="200px">
 
 
 * #### 아두이노 초음파센서 HC-SR04<br>
