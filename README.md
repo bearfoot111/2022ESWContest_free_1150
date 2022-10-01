@@ -71,9 +71,7 @@
 
 ## 앱 구성 및 사용법
 
-### <첫화면>
-
-#### 1. 서버와 연결상태 확인
+### 1. 서버와 연결상태 확인
 ![image](https://user-images.githubusercontent.com/109563514/193395903-c960ade6-7115-43aa-b98c-394fd629af58.png)  
 >서버와 연결된 상태
 >- 앱을 실행하면 자동으로 서버와 연결된다.
@@ -84,7 +82,7 @@
 
 
 </br></br>
-#### 2. 버튼 누르기
+### 2. 버튼 누르기
 ![image](https://user-images.githubusercontent.com/109563514/193397068-c334d25d-b57e-49f3-84b5-b8c0c0248c5f.png)
 >Run 버튼을 누른 상태
 >- 안내로봇의 motor 작동이 시작된다.
@@ -107,7 +105,7 @@
 >- Run OCR 버튼으로 활성화된다.
 
 </br></br>
-#### 3. 설정창 사용하기
+### 3. 설정창 사용하기
 ![image](https://user-images.githubusercontent.com/109563514/193397457-6a68bea9-5733-4c9c-8253-9df743527746.png)
 >왼쪽 상단의 메뉴를 클릭한다.
 
