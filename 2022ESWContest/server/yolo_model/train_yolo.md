@@ -7,8 +7,7 @@
 | YOLOv5s	| 56.8 | 6.4 |
 | YOLOv5m |	64.1 | 8.2 |
 
-![image](https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png)
-<img src="https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png" width="200" />
 
 ![about_yolo](https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png)
 
