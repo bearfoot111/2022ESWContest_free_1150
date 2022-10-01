@@ -17,6 +17,7 @@
 >4. weight 파일인 best.pt를 생성
 >5. weight 파일을 이용해 실제 사진/영상에 yolo를 적용
 
+
 ## 학습 과정
 
 ### 학습 데이터
@@ -31,6 +32,7 @@
 !python train.py --img 416 --batch 16 --epochs 50 --data /content/dataset/data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name block_yolov5s_results
 ```
 > 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
+
 
 ## 적용 과정
 >학습된 yolov5 model을 load
