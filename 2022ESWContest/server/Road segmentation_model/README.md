@@ -17,6 +17,28 @@ demo 버전인만큼 epoh가 10, 정확도가 90%로 가볍게 훈련된 모델�
 <img src="https://user-images.githubusercontent.com/109569066/193413463-fa19a318-1f85-4e72-a9c8-ef42c881619e.png" width="600" />
 
 * ## 적용 과정
+> road segmentation model load 및 적용
+```
+model = pspunet((IMG_HEIGHT, IMG_WIDTH ,3), n_classes)
+model.load_weights("pspunet_weight.h5")
+
+frame = cv2.imread('image.jpg')
+
+frame = cv2.resize(frame, (IMG_WIDTH, IMG_HEIGHT))
+frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+frame = frame[tf.newaxis, ...]
+frame = frame/255
+pre = model.predict(frame)
+pre = create_mask(pre).numpy()
+
+frame2 = frame/2
+frame2[0][(pre==1).all(axis=2)] += [0, 0, 0]
+frame2[0][(pre==2).all(axis=2)] += [0.5, 0.5,0]
+frame2[0][(pre==3).all(axis=2)] += [0.2, 0.7, 0.5]
+frame2[0][(pre==4).all(axis=2)] += [0, 0.5, 0.5]
+frame2[0][(pre==5).all(axis=2)] += [0, 0, 0.5]
+frame2[0][(pre==6).all(axis=2)] += [0.5, 0, 0]
+```
 > road segmentation model 적용 이후 output을 이미지로 반환하는 과정
 ```
 frame2 = tf.squeeze(frame2)
