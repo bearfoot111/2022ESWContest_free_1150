@@ -5,4 +5,5 @@
 > **Image Data** : 2022ESWCOntest/server/yolo_model/dataset/train/images
 
 > **Label Data** : 2022ESWCOntest/server/yolo_model/dataset/train/labels
-> **yaml** : 
+
+> **yaml** : 2022ESWCOntest/server/yolo_model/dataset/
