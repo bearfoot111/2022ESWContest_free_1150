@@ -85,7 +85,7 @@
 
 
 ## RoadSegmentation
->  자세한 내용은 2022ESWContest/server/RoadSegmentation 안의 마크다운파일 참고 
+>  자세한 내용은 2022ESWContest/server/Road segmentation_model 안의 마크다운파일 참고 
 
 
 ## Easy OCR
