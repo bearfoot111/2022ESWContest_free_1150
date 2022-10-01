@@ -1,8 +1,6 @@
 # Road Segmentation 
  
-
-![pspunet_page-0001](https://user-images.githubusercontent.com/109472852/193393158-bdd7c0b2-eb4d-4844-873c-754813118866.jpg)
-
+<img src="https://user-images.githubusercontent.com/109472852/193393158-bdd7c0b2-eb4d-4844-873c-754813118866.jpg" width="600" />
 
 
 * ## 모델 구조  
@@ -16,8 +14,7 @@ UNET은 이미지 분할을 목적으로 제안된 End-to-End 방식의 Fully-Co
 * ## 사용 모델
 demo 버전인만큼 epoh가 10, 정확도가 90%로 가볍게 훈련된 모델이 사용되었다. 아래 표와 같이 epoh 값을 높게 부여할 수록 정확도가 증가하는 것을 확인하여 본 개발에서는 epoh를 50으로 조정한 새로운 훈련 모델을 생성하였다. 
 
-![캡처](https://user-images.githubusercontent.com/109472852/193393312-b2bab531-475d-4f77-a2c8-6061d34d6b16.PNG)
-
+<img src="https://user-images.githubusercontent.com/109472852/193393312-b2bab531-475d-4f77-a2c8-6061d34d6b16.PNG" width="600" />
 
 * ### 개발 환경
 
