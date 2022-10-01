@@ -9,12 +9,10 @@
 | 김채현 | baekchae1120@konkuk.ac.kr  |Road Segmentation 모델 학습<br/>라즈베리 파이 client 코드 개발<br/>TCP/IP 통신망 구축<br/>시연 영상 편집<br/>보고서 작성|
 | 하채리 | hacherry05@naver.com  |YOLO 학습 모델 최적화<br/>Text detection 구현<br/>TCP/IP 통신망 구축<br/>라즈베리 파이 multi threading 구현<br/>보고서 작성 |
 | 오희빈 | dhgmlqls0527@naver.com  |YOLO 학습 모델 최적화<br/>Text detection 구현<br/>3D 프린팅 도안 제작<br/>TTS 앱 연동 구축<br/>보고서 작성|
-
-
+</br></br>
 ## 개발 요약
 <img src="https://user-images.githubusercontent.com/109563514/193400087-e9d4057b-1b94-4feb-8f6f-5a26ceacc13a.png" width="600" />
-
-
+</br></br>
 ## 2022ESWContest (최종 folder) 구성
 ```bash
 │  
@@ -67,20 +65,20 @@
    count_provider.dart
    first_page.dart
 ```
-
+</br></br>
 ## 서버 구성도
 <img src="https://user-images.githubusercontent.com/109569066/193387203-a40715e7-c304-4977-a9f5-2686e74e9b16.png" width="700" />
-
+</br></br>
 ## 주요 함수 흐름도
 <img src="https://user-images.githubusercontent.com/109563514/193400589-2ced53a0-b95e-445c-93a5-bbdf20f51834.png" width="600" />
-
+</br></br>
 ## 사용한 model
 > **YOLO** : 자세한 내용은 2022ESWContest/server/yolo_model/README.md 참고
 
 > **Road Segmentation** : 자세한 내용은 2022ESWContest/server/Road segmentation_model/README.md 참고
 
 > **EasyOCR** : 자세한 내용은 2022ESWContest/server/ocr_model/README.md 참고
-
+</br></br>
 ## 앱 구성 및 사용법
 ### 1. 서버와 연결상태 확인
 <img src="https://user-images.githubusercontent.com/109569066/193406472-b93d5813-997e-4e28-b0fd-d1a93ef85799.png" height="400" />
@@ -140,15 +138,15 @@
 >- CUDNN 8.0.5
 </br></br>
 ## Hardware 구성
-### > 안내 로봇 사진
+> **안내 로봇 사진**
 <img src="https://user-images.githubusercontent.com/109563514/193400318-38a4d737-6fc8-4129-9c8b-c910c3982f18.png" width="500" />
 
-### > 라즈베리파이 카메라모듈 거치대 3d모델
+> **라즈베리파이 카메라모듈 거치대 3d모델**
 <img src="https://user-images.githubusercontent.com/109563514/193400450-7f08c308-3d5d-4e6e-b2b6-7173f375fb80.png" width="500" />
 
-### > 라즈베리파이 basket 3d모델
+> **라즈베리파이 basket 3d모델**
 <img src="https://user-images.githubusercontent.com/109563514/193400487-b5c53fe8-8ceb-4f7f-87c1-376f7ce9e90b.png" width="500" />
 
-### > 차체 mdf 도안
+> **차체 mdf 도안**
 <img src="https://user-images.githubusercontent.com/109563514/193400503-490ffc67-2d2f-4d23-af84-efab9ae59b2e.png" width="500" />
 
