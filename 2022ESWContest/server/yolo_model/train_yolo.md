@@ -6,6 +6,7 @@
 | YOLOv5n |	45.7 | 6.3 |
 | YOLOv5s	| 56.8 | 6.4 |
 | YOLOv5m |	64.1 | 8.2 |
+
 ![image](https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png)
 
 
