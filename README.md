@@ -83,7 +83,7 @@
 
 ## 앱 구성 및 사용법
 ### 1. 서버와 연결상태 확인
-<img src="https://user-images.githubusercontent.com/109569066/193406472-b93d5813-997e-4e28-b0fd-d1a93ef85799.png" height="450" />
+<img src="https://user-images.githubusercontent.com/109569066/193406472-b93d5813-997e-4e28-b0fd-d1a93ef85799.png" height="400" />
 
 >**[1] 서버와 연결된 상태**
 >- 앱을 실행하면 자동으로 서버와 연결된다.
@@ -93,7 +93,7 @@
 
 </br></br>
 ### 2. 버튼 누르기
-<img src="https://user-images.githubusercontent.com/109569066/193406874-be245ac6-7292-4934-9256-36ed8f758d93.png" height="450" />
+<img src="https://user-images.githubusercontent.com/109569066/193406874-be245ac6-7292-4934-9256-36ed8f758d93.png" height="400" />
 
 >**[3] Run 버튼을 누른 상태**
 >- 안내로봇의 motor 작동이 시작된다.
@@ -114,7 +114,7 @@
 
 </br></br>
 ### 3. 설정창 사용하기
-<img src="https://user-images.githubusercontent.com/109569066/193407036-a5923308-e1a0-4c43-869d-47407dfd0219.png" height="450" />
+<img src="https://user-images.githubusercontent.com/109569066/193407036-a5923308-e1a0-4c43-869d-47407dfd0219.png" height="400" />
 
 >**[7] 초기 화면**
 >- 왼쪽 상단의 메뉴를 클릭한다.
