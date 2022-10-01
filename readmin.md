@@ -11,6 +11,8 @@
 >서버와 연결이 끊긴 상태
 >- Connect 버튼을 누르면 서버와 연결을 다시 시도하게 된다.
 
+
+
     #### 2. 버튼 누르기
 ![image](https://user-images.githubusercontent.com/109563514/193397068-c334d25d-b57e-49f3-84b5-b8c0c0248c5f.png)
 >Run 버튼을 누른 상태
