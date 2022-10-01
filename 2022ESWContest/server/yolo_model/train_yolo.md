@@ -33,10 +33,12 @@
 ```
 > 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
 
-
+-
 ## 학습 결과 비교
 <img src="https://user-images.githubusercontent.com/109569066/193401139-b71b9a93-7f22-43cf-8928-9936e6589023.png" width="500" />
+(1)은 주로 수직에서 바라보는 점자블록의 이미지를, (2)는 상대적으로 수평에서 바라보는 점자블록의 이미지를 학습한 경우이다.
 
+로봇의 시점에서 촬영한 video에 학습한 model을 적용하였을 때 (2)가 (1)보다 더 많은 점자블록을 높은 확률로 인식하였다.
 
 ## 적용 과정
 >학습된 yolov5 model을 load
