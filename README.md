@@ -76,11 +76,11 @@
 ![image](https://user-images.githubusercontent.com/109563514/193400589-2ced53a0-b95e-445c-93a5-bbdf20f51834.png)
 
 ## 사용한 model
-> *YOLO* : 자세한 내용은 2022ESWContest/server/yolo_model/README.md 참고
+> **YOLO** : 자세한 내용은 2022ESWContest/server/yolo_model/README.md 참고
 
-> *Road Segmentation* : 자세한 내용은 2022ESWContest/server/Road segmentation_model/README.md 참고
+> **Road Segmentation** : 자세한 내용은 2022ESWContest/server/Road segmentation_model/README.md 참고
 
-> *EasyOCR* : 자세한 내용은 2022ESWContest/server/ocr_model/README.md 참고
+> **EasyOCR** : 자세한 내용은 2022ESWContest/server/ocr_model/README.md 참고
 
 ## 앱 구성 및 사용법
 ### 1. 서버와 연결상태 확인
