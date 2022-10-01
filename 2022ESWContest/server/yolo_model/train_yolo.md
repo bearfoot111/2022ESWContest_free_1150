@@ -1,9 +1,19 @@
 # YOLO
 ![about_yolo](https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png)
 ## 학습 과정
+> 1. yolo를 이용해 사용자 지정 데이터를 학습시키기 위하여 이미지를 수집
+> 2. roboflow를 사용하여 해당 이미지의 관심 개체에 label을 지정
+> 3. yolov5의 pretrained model 중 yolov5s을 선택하여 학습
+> 4. weight 파일인 best.pt를 생성
+> 5. weight 파일을 이용해 실제 사진/영상에 yolo를 적용
+
+![image](https://user-images.githubusercontent.com/109569066/193398024-6dad1d06-7bf2-41d4-8672-e92e9c233851.png)
+
 ### 학습 데이터
 > **Image Data** : 2022ESWCOntest/server/yolo_model/dataset/train/images
 
 > **Label Data** : 2022ESWCOntest/server/yolo_model/dataset/train/labels
 
-> **yaml** : 2022ESWCOntest/server/yolo_model/dataset/
+> **yaml** : 2022ESWCOntest/server/yolo_model/dataset/data.yaml
+
+
