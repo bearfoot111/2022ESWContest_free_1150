@@ -12,7 +12,7 @@
 
 
 ## 개발 요약
-![image](https://user-images.githubusercontent.com/109563514/193400087-e9d4057b-1b94-4feb-8f6f-5a26ceacc13a.png)
+<img src="https://user-images.githubusercontent.com/109563514/193400087-e9d4057b-1b94-4feb-8f6f-5a26ceacc13a.png" width="600" />
 
 
 ## 2022ESWContest (최종 folder) 구성
@@ -129,14 +129,14 @@
 
 
 ## 개발환경
->사용PC
+>**사용PC**
 >- CPU : ntel(R) Xeon(R) CPU W-2223
 >- VGA : RTX3080
 >- HDD : SSD 1TB
 >- CUDA 11.2
 >- CUDNN 8.0.5
 
->사용라이브러리
+>**사용라이브러리**
 >- numpy 1.16.2
 >- opencv2 4.1.0
 >- Pytorch 1.10.0
@@ -146,7 +146,7 @@
 
 ## Hardware 구성
 ### 안내 로봇 사진
-![image](https://user-images.githubusercontent.com/109563514/193400318-38a4d737-6fc8-4129-9c8b-c910c3982f18.png)
+<img src="https://user-images.githubusercontent.com/109563514/193400318-38a4d737-6fc8-4129-9c8b-c910c3982f18.png" width="500" />
 
 ### 라즈베리파이 카메라모듈 거치대 3d모델
 ![image](https://user-images.githubusercontent.com/109563514/193400450-7f08c308-3d5d-4e6e-b2b6-7173f375fb80.png)
@@ -155,5 +155,5 @@
 ![image](https://user-images.githubusercontent.com/109563514/193400487-b5c53fe8-8ceb-4f7f-87c1-376f7ce9e90b.png)
 
 ### 차체 mdf 도안
-![image](https://user-images.githubusercontent.com/109563514/193400503-490ffc67-2d2f-4d23-af84-efab9ae59b2e.png)
+<img src="https://user-images.githubusercontent.com/109563514/193400503-490ffc67-2d2f-4d23-af84-efab9ae59b2e.png" width="500" />
 
