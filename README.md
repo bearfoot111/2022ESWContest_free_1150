@@ -74,9 +74,9 @@
 
 ## 사용한 model
 > **YOLO** : 자세한 내용은 2022ESWContest/server/yolo_model/README.md 참고
-> 
+
 > **Road Segmentation** : 자세한 내용은 2022ESWContest/server/Road segmentation_model/README.md 참고
-> 
+
 > **EasyOCR** : 자세한 내용은 2022ESWContest/server/ocr_model/README.md 참고
 
 ## 앱 구성 및 사용법
