@@ -11,7 +11,7 @@
 
 ```
 # package 설치
- $ flutter pub add cp949
+ $ flutter pub add cp949</br>
  $ flutter pub add flutter_tts
  Change the minimum Android sdk version to 21 (or higher) in your android/app/build.gradle file.
  ```bash
