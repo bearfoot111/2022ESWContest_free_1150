@@ -18,7 +18,7 @@
 │  server.py
 │  ├──ocr_model
 │  ├──yolo_model
-│  ├──Road segmentation_model
+│  └─Road segmentation_model
 │      
 ├─raspberry
 │  motor.py
