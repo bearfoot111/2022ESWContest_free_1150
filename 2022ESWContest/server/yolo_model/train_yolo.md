@@ -33,25 +33,25 @@
 > 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
 
 ## 적용 과정
-
+>학습된 yolov5 model을 load
 ```
 model = torch.hub.load('yolov5', 'custom', path='best_block_.pt', source='local')
 ```
->학습된 yolov5 model을 load
+>(model의 inference setting) gpu로 yolo를 실행하며 신뢰도를 0.4로 설정
 ```
 model.to('cuda:0')
 model.conf = 0.4
 ```
->(model의 inference setting) gpu로 yolo를 실행하며 신뢰도를 0.4로 설정
+>input 이미지에 yolo를 적용
 ```
 results = model(frame)
 ```
->input 이미지에 yolo를 적용
+>yolo 적용 결과 output 이미지
 ```
 frame = np.squeeze(results.render())
 ```
->yolo 적용 결과 output 이미지
+>yolo 적용 결과 output 좌표
 ```
 arr = results.xyxy[0].to('cuda:0')
 ```
->yolo 적용 결과 output 좌표
+
