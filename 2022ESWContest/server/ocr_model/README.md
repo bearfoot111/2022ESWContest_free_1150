@@ -1,8 +1,53 @@
 # Text Recognition model
 ## 1. Tesseract OCR
 > **Text Detection** : east text detection
-
 > **Text Recognition** : Tesseract-OCR Engine
+### 적용 과정
+> East Text Detection은 input 이미지 사이즈가 32의 배수여야 하므로 사이즈를 조절
+```
+(origH, origW) = image.shape[:2]
+ 
+rW = origW / float(frame_size)
+rH = origH / float(frame_size)
+newW = int(origW / rH)
+center = int(newW / 2)
+start = center - int(frame_size / 2)
+
+image = cv2.resize(image, (newW, frame_size)) 
+```
+> Load East Text Detection model
+```
+layerNames = ["feature_fusion/Conv_7/Sigmoid", "feature_fusion/concat_3"]
+net = cv2.dnn.readNet(east_decorator)
+net.setInput(blob_image)
+(scores, geometry) = net.forward(layerNames)
+(numRows, numCols) = scores.shape[2:4]
+for y in range(0, numRows):
+        # extract the scores (probabilities)
+        xData0 = geometry[0, 0, y]
+        xData1 = geometry[0, 1, y]
+        xData2 = geometry[0, 2, y]
+        xData3 = geometry[0, 3, y]
+        anglesData = geometry[0, 4, y]
+
+        for x in range(0, numCols):
+        
+                (offsetX, offsetY) = (x * 4.0, y * 4.0)
+
+                angle = anglesData[x]
+                cos = np.cos(angle)
+                sin = np.sin(angle)
+
+                h = xData0[x] + xData2[x]
+                w = xData1[x] + xData3[x]
+
+                endX = int(offsetX + (cos * xData1[x]) + (sin * xData2[x]))
+                endY = int(offsetY - (sin * xData1[x]) + (cos * xData2[x]))
+                startX = int(endX - w)
+                startY = int(endY - h)
+
+                rects.append((startX, startY, endX, endY))
+```
 ## 2. EasyOCR
 > **Text Detection** : CRAFT
 
