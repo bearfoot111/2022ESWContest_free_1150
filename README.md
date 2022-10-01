@@ -3,7 +3,10 @@
 | 이름 | 메일 |역할|
 | ------------ | ------------- |------|
 | 백민정 | Content Cell  |    |
+| 안진혁 | Content Cell  |    |
 | 김채현 | Content Cell  |      |
+| 하채리 | hacherry05@konkuk.ac.kr  |      |
+| 오희빈 | Content Cell  |      |
 ![1_qNdglJ1ORP3Gq77MmBLhHQ](https://user-images.githubusercontent.com/109472852/193386055-42813178-814e-46fd-932e-80d2410b6543.png)
 
 
