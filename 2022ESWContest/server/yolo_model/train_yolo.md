@@ -37,7 +37,7 @@
 ```
 model = torch.hub.load('yolov5', 'custom', path='best_block_.pt', source='local')
 ```
->model의 inference setting
+>**model의 inference setting** : gpu로 yolo를 실행하며 신뢰도를 0.4로 설정
 ```
 model.to('cuda:0')
 model.conf = 0.4
