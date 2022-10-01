@@ -12,7 +12,6 @@
 
 ```bash
 
-│  README.md
 │  
 ├─server
 │  server.py
