@@ -83,13 +83,13 @@
 | ![image](https://user-images.githubusercontent.com/109563514/193400754-e8852e70-f163-46da-a9ec-b417e8f2916c.png) | ![image](https://user-images.githubusercontent.com/109563514/193400758-41515e5f-8998-4349-9b58-70edcd1bd2bc.png) |
 
 
+
 ## RoadSegmentation
 >  자세한 내용은 2022ESWContest/server/RoadSegmentation 안의 마크다운파일 참고 
 
+
 ## Easy OCR
 >  자세한 내용은 2022ESWContest/server/ocr_model 안 마크다운파일 참고
-
-![image](https://user-images.githubusercontent.com/109563514/193400708-1d893e72-4bdc-49b7-b82f-7ad8e23661bc.png)
 
 
 ## 앱 구성 및 사용법
