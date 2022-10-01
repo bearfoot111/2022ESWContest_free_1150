@@ -53,9 +53,11 @@ results = model(frame)
 ```
 frame = np.squeeze(results.render())
 ```
+
 >yolo 적용 결과 output 좌표
 ```
 arr = results.xyxy[0].to('cuda:0')
+
 #      xmin    ymin    xmax   ymax  confidence  class    name
 # 0  749.50   43.50  1148.0  704.5    0.874023      0      go
 # 1  433.50  433.50   517.5  714.5    0.687988      1    stop
