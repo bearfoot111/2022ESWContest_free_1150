@@ -6,6 +6,8 @@
 | YOLOv5n |	45.7 | 6.3 |
 | YOLOv5s	| 56.8 | 6.4 |
 | YOLOv5m |	64.1 | 8.2 |
+![image](https://user-images.githubusercontent.com/109569066/193399694-a1de8d2d-315f-42ba-895c-24337ab54c42.png)
+
 
 ![about_yolo](https://user-images.githubusercontent.com/109569066/193397458-1f8abb3f-f0fb-46fe-9a6a-b89f1622de3f.png)
 
@@ -31,8 +33,12 @@
 > 자세한 train 과정은 2022ESWCOntest/server/yolo_model/yolov5_block.ipynb 참고
 
 ## 적용 과정
+>학습된 yolov5 model을 load
 ```
 model = torch.hub.load('yolov5', 'custom', path='best_block_.pt', source='local')
+```
+>model의 inference setting
+```
 model.to('cuda:0')
 model.conf = 0.4
 ```
