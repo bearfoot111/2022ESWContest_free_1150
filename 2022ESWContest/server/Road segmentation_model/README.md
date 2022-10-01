@@ -50,7 +50,7 @@ frame2 = np.array(frame2)
 frame2 = cv2.cvtColor(frame2, cv2.COLOR_RGB2BGR)
 ```
 
-* ### 개발 환경
+* ## 개발 환경
 
 
   ubuntu 18.04, tensorflow 2.0.0, opencv-python 4.2.0.32, numpy 1.18.2
