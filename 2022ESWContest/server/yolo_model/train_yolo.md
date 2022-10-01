@@ -16,8 +16,8 @@
 >3. yolov5의 pretrained model 중 yolov5s을 선택하여 학습
 >4. weight 파일인 best.pt를 생성
 >5. weight 파일을 이용해 실제 사진/영상에 yolo를 적용
-
-
+&nbsp;
+&nbsp;
 ## 학습 과정
 
 ### 학습 데이터
