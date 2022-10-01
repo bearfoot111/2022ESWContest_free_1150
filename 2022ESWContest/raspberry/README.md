@@ -22,7 +22,7 @@ Echo Pin의 High 펄스 간격 = 펄스가 반사되고 물체에 부딪힌 후 
         print("Distance : %.1f cm" % distance)
 ```
 
-장애물과의 거리가 40cm 이하일 경우, sever로 "stop!!!"이라는 메세지를 보낸다.
+장애물과의 거리가 40cm 이하일 경우, sever로 "Stop!"이라는 메세지를 보낸다.
 
 ```
         if(distance<=40):
