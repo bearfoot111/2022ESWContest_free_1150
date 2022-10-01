@@ -1,8 +1,8 @@
 # Text Recognition model
 ## 1. East Text Detection + Tesseract OCR
-> **East Text Detection** : 
+> **East Text Detection** : FCN + PVANet
 
-> **Tesseract OCR** : 
+> **Tesseract OCR** : CNN + CLSTM
 ### 적용 과정
 > East Text Detection은 input 이미지 사이즈가 32의 배수여야 하므로 사이즈를 조절
 ```
@@ -54,7 +54,8 @@ for y in range(0, numRows):
 config = ("-l kor+eng --oem 1 --psm 12")
 text = pytesseract.image_to_string(image, config=config)
 ````
-자세한 과정은 2022ESWContest_free_1150/2022ESWContest/server/ocr_model/Tesseract&easyOCR.ipynb 
+자세한 과정은 2022ESWContest_free_1150/2022ESWContest/server/ocr_model/Tesseract&easyOCR.ipynb 참고
+
 ## 2. EasyOCR
 > **Text Detection** : CRAFT
 
