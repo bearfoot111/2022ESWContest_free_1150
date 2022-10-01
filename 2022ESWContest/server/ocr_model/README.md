@@ -1,7 +1,8 @@
 # Text Recognition model
-## 1. Tesseract OCR
-> **Text Detection** : east text detection
-> **Text Recognition** : Tesseract-OCR Engine
+## 1. East Text Detection + Tesseract OCR
+> **East Text Detection** : 
+
+> **Tesseract OCR** : 
 ### 적용 과정
 > East Text Detection은 input 이미지 사이즈가 32의 배수여야 하므로 사이즈를 조절
 ```
@@ -64,7 +65,7 @@ result = reader.readtext(gray)
 for res in result:
         text += res[1] + " "
 ```
-## 3. model 비교
-<img src="https://user-images.githubusercontent.com/109569066/193405181-e7a6dae3-c95a-4b9e-b7d8-2b37eade5278.png" width="600" />
+## 3. model 적용 결과 비교
+<img src="https://user-images.githubusercontent.com/109569066/193405181-e7a6dae3-c95a-4b9e-b7d8-2b37eade5278.png" width="500" />
 <img src="https://user-images.githubusercontent.com/109569066/193405210-90613832-6227-4c5c-9c28-8aea6dc4ffdd.png" width="600" />
 
