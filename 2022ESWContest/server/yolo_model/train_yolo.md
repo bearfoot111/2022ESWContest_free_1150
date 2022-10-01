@@ -9,8 +9,6 @@
 
 ## 학습 과정
 
-
-
 ### 학습 데이터
 > **Image Data** : 2022ESWCOntest/server/yolo_model/dataset/train/images
 
@@ -18,7 +16,8 @@
 
 > **yaml** : 2022ESWCOntest/server/yolo_model/dataset/data.yaml
 
-### yolov5의 pretrained model
+
+### yolov5 pretrained model
 | Model | mAP | Speed |
 | ---- | ----- |------|
 YOLOv5n |	45.7 | 6.3 |
