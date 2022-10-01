@@ -83,8 +83,8 @@
 
 ## 앱 구성 및 사용법
 ### 1. 서버와 연결상태 확인
-![그림6](https://user-images.githubusercontent.com/109569066/193406472-b93d5813-997e-4e28-b0fd-d1a93ef85799.png)
- 
+<img src="https://user-images.githubusercontent.com/109569066/193406472-b93d5813-997e-4e28-b0fd-d1a93ef85799.png" width="400" />
+
 >**[1] 서버와 연결된 상태**
 >- 앱을 실행하면 자동으로 서버와 연결된다.
 
