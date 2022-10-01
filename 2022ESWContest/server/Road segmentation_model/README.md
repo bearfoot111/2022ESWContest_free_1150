@@ -9,7 +9,10 @@ UNET은 이미지 분할을 목적으로 제안된 End-to-End 방식의 Fully-Co
 개발에서 사용된 모델은 UNET에  PSPNET의 pyramid pooling module을 추가한 구조로, PSPNET 의 장점인 global context information이 활용된다. global context information이란 픽셀값의 클래스를 분류할 때 근처의 local 정보들만 이용하는 것이 아니라 더 넓은 영역, 즉 global을 활용하는 것이다. 이와 같이 PSPNET을 접목한 PSPUNET은 UNET 모델만을 사용했을 때보다 정확도가 높고 속도가 빠르다. 아래는 간단한 demo 버전의 성능 분석표이다. 
 
 ![saa](https://user-images.githubusercontent.com/109472852/193393309-96e53519-be68-4061-98f2-e4a1eddb5d7d.PNG)
-
+|model|accuracy|loss|mloU|FPS|Size|
+|---|---|---|---|---|---|
+|PSPUnet|90.2%|0.3160|74.5%|24.8|39.6MB|
+|UNet|89.1%|0.3520|70.9%|22.7|131MB|
 
 * ## 사용 모델
 demo 버전인만큼 epoh가 10, 정확도가 90%로 가볍게 훈련된 모델이 사용되었다. 아래 표와 같이 epoh 값을 높게 부여할 수록 정확도가 증가하는 것을 확인하여 본 개발에서는 epoh를 50으로 조정한 새로운 훈련 모델을 생성하였다. 
