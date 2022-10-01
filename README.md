@@ -93,7 +93,7 @@
 
 </br></br>
 ### 2. 버튼 누르기
-<img src="https://user-images.githubusercontent.com/109569066/193406568-1daf4612-3ff8-4855-980d-ee1ea89d511a.png" width="400" />
+<img src="https://user-images.githubusercontent.com/109569066/193406761-6a29ba6b-98b8-4edc-a363-8ac6e04a3c83.png" width="400" />
 
 >**[3] Run 버튼을 누른 상태**
 >- 안내로봇의 motor 작동이 시작된다.
@@ -103,14 +103,12 @@
 >- 안내로봇의 motor 작동이 멈추게된다.
 >- Run 버튼으로 활성화된다.
 
-![image](https://user-images.githubusercontent.com/109563514/193397219-2ad26037-159f-4d91-9e96-147fc41e865d.png)
->**Run OCR 버튼을 누른 상태**
+>**[5] Run OCR 버튼을 누른 상태**
 >- 안내로봇의 motor 작동을 멈추고 주변 문자인식을 실행한다.
 >- 인식된 문자들이 가운데 메세지창에 뜨면서 음성으로도 출력된다.
 >- Stop OCR 버튼으로 활성화된다.
 
-![image](https://user-images.githubusercontent.com/109563514/193397258-3da81758-a57e-4960-8d99-2497ea356de1.png)
->**Stop OCR 버튼을 누른 상태**
+>**[6] Stop OCR 버튼을 누른 상태**
 >- 주변 문자인식을 멈춘다.
 >- Run OCR 버튼으로 활성화된다.
 
