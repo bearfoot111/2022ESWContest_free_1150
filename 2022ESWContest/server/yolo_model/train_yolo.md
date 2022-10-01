@@ -65,4 +65,4 @@ arr = results.xyxy[0].to('cuda:0')
 ```
 
 ## yolo 학습 결과 비교
-<img src="https://user-images.githubusercontent.com/109569066/193401106-749184f9-a129-4672-aaa8-4f7bf4c5afa7.png" width="700" />
+<img src="https://user-images.githubusercontent.com/109569066/193401139-b71b9a93-7f22-43cf-8928-9936e6589023.png" width="500" />
