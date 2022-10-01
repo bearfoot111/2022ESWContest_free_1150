@@ -26,7 +26,7 @@
 │  │     frozen_east_text_detection.pb
 │  │     
 │  ├─ yolo_model
-│  │  │  train_yolo.md
+│  │  │  README.md
 │  │  │  best_block_.pt
 │  │  │  yolov5_block.ipynb
 │  │  │  
